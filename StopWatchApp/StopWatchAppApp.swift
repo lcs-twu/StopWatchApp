@@ -11,7 +11,13 @@ import SwiftUI
 struct StopWatchAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView{
+                Text("World Clock")
+                    .tabItem{
+                        Image(systemName: "globe")
+                        Text("World Clock")
+                    }
+            }
         }
     }
 }

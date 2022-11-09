@@ -18,15 +18,15 @@ struct ContentView: View {
                     .font(Font.system(size:90,weight: .thin))
                     .foregroundColor(.white)
                 HStack {
-                    CircleButtonView(buttonColor: .gray,
+                    CircleButtonView(buttonColor: Color("Dark Grey"),
                                      label: "reset",
                                      labelColor: .white)
                     
                     Spacer()
                     
-                    CircleButtonView(buttonColor: .green,
+                    CircleButtonView(buttonColor: Color("Dark Green"),
                                      label: "start",
-                                     labelColor: .white)
+                                     labelColor: .green)
                     
                 }
                 
