@@ -38,6 +38,32 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TabView(selection: Binding.constant(3)){
+            Text("World Clock")
+                .tabItem{
+                    Image(systemName: "globe")
+                    Text("World Clock")
+                }
+            
+            Text("Alarm")
+                .tabItem{
+                    Image(systemName: "alarm.fill")
+                    Text("Alarm Clock")
+                }
+            
+            ContentView()
+                .tabItem{
+                    Image(systemName: "stopwatch.fill")
+                    Text("Stop Watch")
+                }
+            
+            Text("Timer")
+                .tabItem{
+                    Image(systemName: "timer")
+                    Text("Timer")
+                }
+        }
+        .accentColor(.orange)
+        .preferredColorScheme(.dark)
     }
 }

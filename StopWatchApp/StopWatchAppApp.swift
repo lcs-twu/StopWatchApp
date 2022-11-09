@@ -20,10 +20,15 @@ struct StopWatchAppApp: App {
                 
                 Text("Alarm")
                     .tabItem{
-                        Image(systemName: "Alarm.fill")
+                        Image(systemName: "alarm.fill")
                         Text("Alarm Clock")
                     }
+                
                 ContentView()
+                    .tabItem{
+                        Image(systemName: "stopwatch.fill")
+                        Text("Stop Watch")
+                    }
                 
                 Text("Timer")
                     .tabItem{
