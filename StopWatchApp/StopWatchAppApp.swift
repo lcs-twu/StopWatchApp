@@ -17,6 +17,19 @@ struct StopWatchAppApp: App {
                         Image(systemName: "globe")
                         Text("World Clock")
                     }
+                
+                Text("Alarm")
+                    .tabItem{
+                        Image(systemName: "Alarm.fill")
+                        Text("Alarm Clock")
+                    }
+                ContentView()
+                
+                Text("Timer")
+                    .tabItem{
+                        Image(systemName: "timer")
+                        Text("Timer")
+                    }
             }
         }
     }
