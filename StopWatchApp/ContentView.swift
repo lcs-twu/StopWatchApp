@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            
             Color.black
                 .ignoresSafeArea()
             
@@ -18,11 +17,11 @@ struct ContentView: View {
                 Text("00:09.06")
                     .font(Font.system(size:90,weight: .thin))
                     .foregroundColor(.white)
-                
+                CircleButtonView()
                 
             }
+            .padding()
         }
-        .padding()
     }
 }
 
