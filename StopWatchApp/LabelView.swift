@@ -13,7 +13,7 @@ struct LabelView: View {
     let textColor: Color
     
     var body: some View {
-            HStack{
+            ZStack{
                 Text(text)
                     .foregroundColor(textColor)
                     .frame(width: 100)
