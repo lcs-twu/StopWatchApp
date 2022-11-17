@@ -14,6 +14,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             VStack{
+                Spacer()
                 Text("00:09.06")
                     .font(Font.system(size:90,weight: .thin))
                     .foregroundColor(.white)
@@ -29,7 +30,38 @@ struct ContentView: View {
                                      labelColor: .green)
                     
                 }
-                
+                List{
+                    Group{
+                        HStack{
+                            Text("Lap 5")
+                            Spacer()
+                            LabelView()
+                        }
+                        HStack{
+                            Text("Lap 4")
+                            Spacer()
+                            LabelView()
+                        }
+                        HStack{
+                            Text("Lap 3")
+                            Spacer()
+                            LabelView()
+                        }
+                        HStack{
+                            Text("Lap 2")
+                            Spacer()
+                            LabelView()
+                        }
+                        HStack{
+                            Text("Lap 1")
+                            Spacer()
+                            LabelView()
+                        }
+                    }
+                    .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                }
+                .frame(height: 300)
+                .listStyle(.plain)
             }
             .padding()
         }
