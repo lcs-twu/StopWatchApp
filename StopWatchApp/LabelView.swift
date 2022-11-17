@@ -9,17 +9,17 @@ import SwiftUI
 
 struct LabelView: View {
     
-    let label: String
-    let labelColor: Color
+    let text: String
+    let textColor: Color
     
     var body: some View {
             ZStack {
-                Text(label)
-                    .foregroundColor(labelColor)
+                Text(text)
+                    .foregroundColor(textColor)
                     .frame(width: 100)
                 
-                Text(label)
-                    .foregroundColor(labelColor)
+                Text(text)
+                    .foregroundColor(textColor)
                     .font(.title2)
             }
         }
@@ -27,7 +27,7 @@ struct LabelView: View {
 
 struct LabelView_Previews: PreviewProvider {
     static var previews: some View {
-        LabelView(LabelColor: .gray,
-                         label: "reset")
+        LabelView(text: "",
+                  textColor: .gray)
     }
 }

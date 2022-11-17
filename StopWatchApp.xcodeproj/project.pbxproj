@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		813C3CDB29266E9F005755C6 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C3CDA29266E9F005755C6 /* LabelView.swift */; };
+		813C3CDD292673F0005755C6 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C3CDC292673F0005755C6 /* StopWatchView.swift */; };
+		813C3CDF292675CB005755C6 /* WorldClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813C3CDE292675CB005755C6 /* WorldClockView.swift */; };
 		81500BDD2925E5830060112E /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81500BDC2925E5830060112E /* TimeView.swift */; };
 		81C4419C291BEBF0005D56E6 /* StopWatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4419B291BEBF0005D56E6 /* StopWatchAppApp.swift */; };
 		81C4419E291BEBF0005D56E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4419D291BEBF0005D56E6 /* ContentView.swift */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		813C3CDA29266E9F005755C6 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		813C3CDC292673F0005755C6 /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
+		813C3CDE292675CB005755C6 /* WorldClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockView.swift; sourceTree = "<group>"; };
 		81500BDC2925E5830060112E /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		81C44198291BEBF0005D56E6 /* StopWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C4419B291BEBF0005D56E6 /* StopWatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchAppApp.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				81C441A9291BEE98005D56E6 /* CircleButtonView.swift */,
 				81500BDC2925E5830060112E /* TimeView.swift */,
 				813C3CDA29266E9F005755C6 /* LabelView.swift */,
+				813C3CDC292673F0005755C6 /* StopWatchView.swift */,
+				813C3CDE292675CB005755C6 /* WorldClockView.swift */,
 			);
 			path = StopWatchApp;
 			sourceTree = "<group>";
@@ -146,10 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813C3CDD292673F0005755C6 /* StopWatchView.swift in Sources */,
 				81C441AA291BEE98005D56E6 /* CircleButtonView.swift in Sources */,
 				81C4419E291BEBF0005D56E6 /* ContentView.swift in Sources */,
 				81C4419C291BEBF0005D56E6 /* StopWatchAppApp.swift in Sources */,
 				81500BDD2925E5830060112E /* TimeView.swift in Sources */,
+				813C3CDF292675CB005755C6 /* WorldClockView.swift in Sources */,
 				813C3CDB29266E9F005755C6 /* LabelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
